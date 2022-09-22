@@ -1,4 +1,4 @@
-import CoinClass as c
+import CoinClass as c       #c is an alias
 
 
 # The main function.
