@@ -1,10 +1,10 @@
 class payroll:
 
-    def __init__(self,i_description,i_date,i_amt,i_id):
-        self.__description = i_description 
-        self.__date = i_date 
-        self.__Amt = i_amt 
-        self.__empID = i_id  
+    def __init__(self,description_1,date_1,chrg_1,id_1):
+        self.__description = description_1 
+        self.__date = date_1 
+        self.__chrg = chrg_1 
+        self.__empID = id_1  
 
     def get_description(self):
         return self.__description
@@ -12,8 +12,8 @@ class payroll:
     def get_date(self):
         return self.__date
 
-    def get_amt(self):
-        return self.__Amt
+    def get_chrg(self):
+        return self.__chrg
 
     def get_empID(self):
         return self.__empID    
